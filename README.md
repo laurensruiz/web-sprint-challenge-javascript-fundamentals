@@ -52,7 +52,7 @@ d. Explicit binding - Whenever we use JavaScript's call or apply method, this is
 
 5. Why do we need super() in an extended class?
 
-super acts like .call in prototypes. This basically allows the extended class to call the properties of the Parent class.
+super() acts like .call in prototypes. This basically allows the extended class to call the properties of the Parent class.
 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 

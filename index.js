@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// The function can access the variable internal because it is in an enclosing scope or it is within a closure of another function. A nested function can inherit the arguments and variables from the outer function.
 
 
 
