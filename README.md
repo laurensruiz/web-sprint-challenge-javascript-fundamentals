@@ -26,13 +26,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.map runs a callback on an array then creates a new array based on the array it is used on, this will usually have same length as the original array. .filter runs a callback but returns a new filtered array based on the conditions set in the callback, depending on the conditions, you may have an array with less elements. .reduce reduces the array into a single value. Usually we use . reduce to ge the sum of the values in an array
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback is a function to be executed from another function that has already been executed. A high order function is a function that can accept functions as a parameter or returns another function
+
 
 3. Explain what a closure is.
 
+A closure helps control what is or isn't in the scope of a function. It can help set variables to only work for a particular function if it is within a closure.
+
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
 4. Describe the four principles of the 'this' keyword.
 
+a. Window/Global Object Binding - When in the global scope, the value of "this" will be the window/console Object
+
+b. Implicit Binding - Whenever a preceding dot calls a function, the object before the dot is this.
+
+c. New binding - Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+
+d. Explicit binding - Whenever we use JavaScript's call or apply method, this is explicitly defined.
+
+
 5. Why do we need super() in an extended class?
+
+super acts like .call in prototypes. This basically allows the extended class to call the properties of the Parent class.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
